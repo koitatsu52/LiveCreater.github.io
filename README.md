@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveCreate - クリエイターとファンを繋ぐ体験プラットフォーム</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
@@ -43,7 +44,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="/api/placeholder/900/500" alt="LiveCreateプラットフォームイメージ">
+                <img src="img/hero-image.jpg" alt="LiveCreateプラットフォームイメージ">
             </div>
         </div>
     </section>
@@ -55,32 +56,32 @@
                 <p>LiveCreateは単なる配信サービスではなく、クリエイターの持続可能な収益確保とファンの満足度向上を両立するための包括的なプラットフォームです。</p>
             </div>
             <div class="features-grid">
-                <div class="feature-card">
+                <div class="feature-card" data-animate>
                     <div class="feature-icon">🎭</div>
                     <h3>イベント体験の共有</h3>
                     <p>オンラインライブ配信、ワークショップ、交流会など多様なイベントを通じて、クリエイターとファンが直接交流できます。チケット販売機能で収益化も簡単です。</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card" data-animate>
                     <div class="feature-icon">💰</div>
                     <h3>複数の収益化手段</h3>
                     <p>月額サブスクリプション、イベントチケット、グッズ販売など複数の方法でクリエイターを支援できます。従来のSNSでは実現しにくい直接支援モデルを提供します。</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card" data-animate>
                     <div class="feature-icon">👥</div>
                     <h3>コミュニティ形成</h3>
                     <p>好きなクリエイターを中心としたコミュニティで、同じ趣味を持つファン同士が交流できます。共通の話題で盛り上がり、推し活をより楽しめる場所です。</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card" data-animate>
                     <div class="feature-icon">📊</div>
                     <h3>分析ダッシュボード</h3>
                     <p>クリエイターは収益レポートやファンの反応を分析できるダッシュボードを活用し、戦略的な創作活動が可能です。データに基づいた意思決定をサポートします。</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card" data-animate>
                     <div class="feature-icon">🔍</div>
                     <h3>新たな才能の発見</h3>
                     <p>興味に基づいたレコメンド機能で、まだ知らない素晴らしいクリエイターとの出会いを提供します。ジャンルやスタイルで絞り込み検索も可能です。</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card" data-animate>
                     <div class="feature-icon">🌐</div>
                     <h3>オールインワンプラットフォーム</h3>
                     <p>複数のサービスに分散していた機能を一つに統合。コンテンツ配信、課金、告知、コミュニケーションをシームレスに行えます。</p>
@@ -92,7 +93,7 @@
     <section id="for-creator" class="section section-dark">
         <div class="container">
             <div class="two-columns">
-                <div class="column text-column">
+                <div class="column text-column" data-animate>
                     <h2>クリエイターの可能性を広げる</h2>
                     <p>LiveCreateは、あなたの創作活動を支え、ファンとの関係を深め、持続可能な収入を得るための総合プラットフォームです。</p>
                     <ul class="bullet-list">
@@ -104,8 +105,8 @@
                     </ul>
                     <a href="#" class="btn btn-primary">クリエイターとして登録する</a>
                 </div>
-                <div class="column image-column">
-                    <img src="/api/placeholder/600/400" alt="クリエイター向け機能イメージ">
+                <div class="column image-column" data-animate>
+                    <img src="img/creator-image.jpg" alt="クリエイター向け機能イメージ">
                 </div>
             </div>
         </div>
@@ -114,10 +115,10 @@
     <section id="for-fan" class="section section-light">
         <div class="container">
             <div class="two-columns">
-                <div class="column image-column">
-                    <img src="/api/placeholder/600/400" alt="ファン向け体験イメージ">
+                <div class="column image-column" data-animate>
+                    <img src="img/fan-image.jpg" alt="ファン向け体験イメージ">
                 </div>
-                <div class="column text-column">
+                <div class="column text-column" data-animate>
                     <h2>推し活をもっと楽しく、もっと深く</h2>
                     <p>LiveCreateでは、単なる視聴者ではなく、クリエイターの創作プロセスに参加し、共に成長する体験を提供します。</p>
                     <ul class="bullet-list">
@@ -140,13 +141,13 @@
                 <p>LiveCreateを通じて、クリエイターとファンがどのような体験をしているか、実際の声をご紹介します。</p>
             </div>
             <div class="testimonials-grid">
-                <div class="testimonial-card">
+                <div class="testimonial-card" data-animate>
                     <div class="testimonial-text">
                         LiveCreateのおかげで、ファンと直接つながる喜びを感じながら、安定した収入を得られるようになりました。毎月のサブスクリプション収入があるので、創作に専念できる時間が増えました。
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
-                            <img src="/api/placeholder/56/56" alt="佐藤音楽家">
+                            <img src="img/avatar-1.jpg" alt="佐藤音楽家">
                         </div>
                         <div class="author-info">
                             <h4>佐藤 明</h4>
@@ -154,13 +155,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card" data-animate>
                     <div class="testimonial-text">
                         ファンからの直接的なサポートとフィードバックが、創作意欲を大きく高めてくれます。月に一度のオンラインライブが楽しみで仕方ありません。ファンとの距離が近くなったと感じます。
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
-                            <img src="/api/placeholder/56/56" alt="田中イラストレーター">
+                            <img src="img/avatar-2.jpg" alt="田中イラストレーター">
                         </div>
                         <div class="author-info">
                             <h4>田中 彩</h4>
@@ -168,13 +169,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card" data-animate>
                     <div class="testimonial-text">
                         推しのライブ配信に参加して、直接質問できるのが最高です！他のSNSでは見られない限定コンテンツも楽しめて、もっと応援したいという気持ちが強くなりました。
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
-                            <img src="/api/placeholder/56/56" alt="山田ファン">
+                            <img src="img/avatar-3.jpg" alt="山田ファン">
                         </div>
                         <div class="author-info">
                             <h4>山田 健太</h4>
@@ -193,7 +194,7 @@
                 <p>LiveCreateではクリエイターの成長段階に合わせた料金プランをご用意しています。登録は無料、収益が発生した時のみ手数料が発生します。</p>
             </div>
             <div class="pricing-grid">
-                <div class="pricing-card">
+                <div class="pricing-card" data-animate>
                     <div class="pricing-type">ベーシック</div>
                     <div class="price">5%</div>
                     <div class="price-details">取引額に対する手数料</div>
@@ -206,7 +207,7 @@
                     </ul>
                     <a href="#" class="btn btn-outline">プラン詳細</a>
                 </div>
-                <div class="pricing-card featured">
+                <div class="pricing-card featured" data-animate>
                     <div class="pricing-type">プロフェッショナル</div>
                     <div class="price">10%</div>
                     <div class="price-details">取引額に対する手数料</div>
@@ -219,7 +220,7 @@
                     </ul>
                     <a href="#" class="btn btn-secondary">プラン詳細</a>
                 </div>
-                <div class="pricing-card">
+                <div class="pricing-card" data-animate>
                     <div class="pricing-type">エンタープライズ</div>
                     <div class="price">カスタム</div>
                     <div class="price-details">お問い合わせください</div>
@@ -296,6 +297,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
