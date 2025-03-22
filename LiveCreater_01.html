@@ -324,7 +324,7 @@ header.scrolled {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/png/512/ios7-circle-outline.png');
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGNpcmNsZSBjeD0iMTAiIGN5PSIxMCIgcj0iOSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIwLjUiIG9wYWNpdHk9IjAuMyIvPjwvc3ZnPg==');
     background-size: 20px;
     opacity: 0.1;
     pointer-events: none;
@@ -335,6 +335,14 @@ header.scrolled {
     margin: 0 auto;
     position: relative;
     z-index: 2;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease;
+}
+
+.hero-content.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .hero h1 {
@@ -362,6 +370,14 @@ header.scrolled {
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-xl);
     overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease;
+}
+
+.hero-image.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* ------------------------------
@@ -687,6 +703,20 @@ footer {
 .copyright {
     color: var(--gray-500);
     font-size: 0.875rem;
+}
+
+/* ------------------------------
+ * Animations
+ * ------------------------------ */
+[data-animate] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+}
+
+[data-animate].animate {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* ------------------------------
